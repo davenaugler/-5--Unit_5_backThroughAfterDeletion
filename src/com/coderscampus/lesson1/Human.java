@@ -22,6 +22,7 @@ public class Human {
 		} else {
 			return "Senior";
 		}
+		// new commment
 		
 	}
 }
