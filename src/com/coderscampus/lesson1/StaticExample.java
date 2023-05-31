@@ -9,8 +9,6 @@ public class StaticExample {
 	
 	public static void main(String[] args) {
 		StaticExample staticObject = new StaticExample();
-		// INCORRECT
-//		if (someNumber > 11) {
 //			System.out.println("say something");
 //		}
 	
@@ -20,9 +18,14 @@ public class StaticExample {
 		}
 		
 		Human aChild = new Human();
-		aChild.age = 12;
+		aChild.setAge(12);
 		System.out.println(aChild.getStageOfLife());
+		
+		Human anAdult = new Human();
+		anAdult.setAge(19);
+		System.out.println(anAdult.getStageOfLife());
 		
 	}
 
 }
+

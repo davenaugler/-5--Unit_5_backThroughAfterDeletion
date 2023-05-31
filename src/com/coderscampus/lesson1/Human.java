@@ -9,7 +9,23 @@ public class Human {
 	
 	// because 'static' is not in front of int, then it means it belongs to an instance of this object.
 	// INSTANCE VARIABLE (instance variables do not have 'static')
-	int age;
+	private int age;
+	// if access modifier is private only the scope of the class the variable is in, 
+	// has access to it, outside of using a getter or setter
+	
+	public int getAge () {
+		return age;
+		
+	}
+	
+	public void setAge (int age) {
+		if (age < 0  || age > 150) {
+			System.out.println("No no no. A valid age is between 0 and 130.");
+			return;
+		}
+		this.age = age;
+	}
+	
 	
 	// It' not practical to hard code these numbers in the if and else if statements
 	public String getStageOfLife () {
