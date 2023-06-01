@@ -14,7 +14,7 @@ public class Lesson2 {
 		daveNaugler.setAge(32);
 //		daveNaugler.age = 36;
 		System.out.println(daveNaugler.getStageOfLife());
-		
+		// new comment
 	}
 	
 }
