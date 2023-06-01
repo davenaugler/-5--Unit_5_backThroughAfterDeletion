@@ -16,7 +16,7 @@ public class Lesson2 {
 		System.out.println(daveNaugler.getStageOfLife());
 		// new comment
 		// additional comment
-		
+		// new additional comment
 	}
 	
 }
