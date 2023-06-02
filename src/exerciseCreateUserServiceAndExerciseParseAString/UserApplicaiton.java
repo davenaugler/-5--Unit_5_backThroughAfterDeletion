@@ -19,6 +19,7 @@ public class UserApplicaiton {
 		UserService userService2 = new UserService();
 		String[] inputs = userService2.parseText("davenaugler@gmail.com,password1234,Dave Naugler!!");
 		for (int i = 0; i < inputs.length; i++) {
+//			System.out.println(inputs);
 			System.out.println(inputs[i]);
 		}
 	}
