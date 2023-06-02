@@ -10,6 +10,7 @@ public class UserApplicaiton {
 		System.out.println("Username: " +daveUser.getUsername());
 		System.out.println("Password: " +daveUser.getPassword());
 		System.out.println("Name: " + daveUser.getName());
+		// new comment
 
 	}
 
