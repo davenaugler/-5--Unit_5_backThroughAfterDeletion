@@ -1,4 +1,4 @@
-package exerciseCreateUserService;
+package exerciseCreateUserServiceAndExerciseParseAString;
 
 public class User {
 

@@ -1,4 +1,4 @@
-package exerciseCreateUserService;
+package exerciseCreateUserServiceAndExerciseParseAString;
 
 public class UserService {
 	
@@ -11,6 +11,12 @@ public class UserService {
 		user.setName(stringInput[2]);
 		return user;
 		
+	}
+	
+	// Parse a String Method
+	public String[] parseText (String inputs) {
+		String[] splitString = inputs.split(",");
+		return splitString;
 	}
 
 	 
