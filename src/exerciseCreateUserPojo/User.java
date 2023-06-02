@@ -1,4 +1,4 @@
-package exerciseCreateUsePojo;
+package exerciseCreateUserPojo;
 
 public class User {
 
